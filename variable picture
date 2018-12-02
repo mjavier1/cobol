@@ -1,0 +1,28 @@
+      ******************************************************************
+      * Author: Marcos J Aguirre
+      * Date: 2/12/18
+      * titulo PIC: declara variable
+      * Tectonics: cobc
+      *  * comentario
+      *                                                                  *
+      ******************************************************************
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. LITERAL.
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01   ALPHABET-LITERAL-1 PICTURE xxxx VALUE"abcd".
+       01   ALPHABET-LITERAL-2 PICTURE x(15) VALUE "textstring".
+       01   NUM-LITERAL-1 PICTURE 9999 VALUE 1234.
+       01   NUM-LITERAL-2 PICTURE s99 VALUE -87.
+      ******************************************************************
+      *                funcion                                          *
+      ******************************************************************
+           PROCEDURE DIVISION.
+           PARAGRAPH-1.
+               DISPLAY ALPHABET-LITERAL-1.
+               DISPLAY ALPHABET-LITERAL-2.
+               DISPLAY NUM-LITERAL-1.
+               DISPLAY NUM-LITERAL-2
+
+           STOP RUN.
