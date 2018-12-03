@@ -1,0 +1,22 @@
+      ******************************************************************
+      * Author:Marcos
+      * Date:1/12/18
+      * title:input accept 
+      * Tectonics: cobc
+      ******************************************************************
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. INPUT-OUTPUT.
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 input-request picture x(30) VALUE "please enter your name!".
+       01 INPUT-OUT-TEXT PICTURE X(20).
+       PROCEDURE DIVISION.
+       PROGRAM-REQUEST SECTION.
+         DISPLAY input-request.
+       PROGRAM-INPUT SECTION.
+           ACCEPT INPUT-OUT-TEXT.
+           PROGRAM-OUTPUT SECTION.
+           DISPLAY "your name is : " ,  INPUT-OUT-TEXT.
+           PROGRAM-END SECTION.
+       STOP RUN.
