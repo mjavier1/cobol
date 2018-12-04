@@ -1,4 +1,3 @@
 # cobol
-OpenCobolIDE
-ljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+programa es   OpenCobolIDE
+link donde puede bajar
